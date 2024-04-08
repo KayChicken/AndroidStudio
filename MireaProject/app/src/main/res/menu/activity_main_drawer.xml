@@ -26,6 +26,21 @@
             android:icon="@drawable/baseline_3p_24"
             android:title="Browser" />
 
+        <item
+            android:id="@+id/sensorFragment"
+            android:icon="@drawable/baseline_3p_24"
+            android:title="Sensor" />
+
+        <item
+            android:id="@+id/collageFragment"
+            android:icon="@drawable/baseline_3p_24"
+            android:title="Collage" />
+
+        <item
+            android:id="@+id/recordFragment"
+            android:icon="@drawable/baseline_3p_24"
+            android:title="Record" />
+
 
     </group>
 </menu>

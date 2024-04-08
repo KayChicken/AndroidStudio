@@ -32,4 +32,19 @@
         android:name="ru.mirea.kainov.mireaproject.WebViewFragment"
         android:label="Browser"
         tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/sensorFragment"
+        android:name="ru.mirea.kainov.mireaproject.SensorFragment"
+        android:label="fragment_sensor"
+        tools:layout="@layout/fragment_sensor" />
+    <fragment
+        android:id="@+id/collageFragment"
+        android:name="ru.mirea.kainov.mireaproject.CollageFragment"
+        android:label="fragment_collage"
+        tools:layout="@layout/fragment_collage" />
+    <fragment
+        android:id="@+id/recordFragment"
+        android:name="ru.mirea.kainov.mireaproject.RecordFragment"
+        android:label="fragment_record"
+        tools:layout="@layout/fragment_record" />
 </navigation>
