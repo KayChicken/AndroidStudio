@@ -40,11 +40,21 @@
     <fragment
         android:id="@+id/collageFragment"
         android:name="ru.mirea.kainov.mireaproject.CollageFragment"
-        android:label="fragment_collage"
+        android:label="Collage"
         tools:layout="@layout/fragment_collage" />
     <fragment
         android:id="@+id/recordFragment"
         android:name="ru.mirea.kainov.mireaproject.RecordFragment"
-        android:label="fragment_record"
+        android:label="Record"
         tools:layout="@layout/fragment_record" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ru.mirea.kainov.mireaproject.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/fileFragment"
+        android:name="ru.mirea.kainov.mireaproject.FileFragment"
+        android:label="fragment_file"
+        tools:layout="@layout/fragment_file" />
 </navigation>
