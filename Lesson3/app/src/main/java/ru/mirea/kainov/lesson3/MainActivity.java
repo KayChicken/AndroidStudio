@@ -22,13 +22,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void nextActivity() {
-        long dateInMillis = System.currentTimeMillis();
-        String format = "yyyy-MM-dd HH:mm:ss";
-        final SimpleDateFormat sdf = new SimpleDateFormat(format);
-        String dateString = sdf.format(new Date(dateInMillis));
-        Intent intent = new Intent(this, SecondActivity.class);
-        intent.putExtra("text", String.format("Квадрат значения моего номера по списку в группе составляет 121, а текущее время %s",dateString));
-        startActivity(intent);
-    }
+//    public void nextActivity() {
+//        long dateInMillis = System.currentTimeMillis();
+//        String format = "yyyy-MM-dd HH:mm:ss";
+//        final SimpleDateFormat sdf = new SimpleDateFormat(format);
+//        String dateString = sdf.format(new Date(dateInMillis));
+//        Intent intent = new Intent(this, SecondActivity.class);
+//        intent.putExtra("text", String.format("Квадрат значения моего номера по списку в группе составляет 121, а текущее время %s",dateString));
+//        startActivity(intent);
+//    }
 }

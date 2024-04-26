@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         AppDatabase db = App.getInstance().getDatabase();
         EmployeeDao employeeDao = db.employeeDao();
         Employee employee = new Employee();
-        employee.id = 1;
+        employee.id = 2;
         employee.name = "John Smith";
         employee.salary = 10000;
         // запись сотрудников в базу

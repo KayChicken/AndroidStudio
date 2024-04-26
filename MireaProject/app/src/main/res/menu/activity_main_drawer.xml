@@ -33,6 +33,12 @@
             android:title="Browser" />
 
         <item
+            android:id="@+id/fragmentWorker"
+            android:icon="@drawable/baseline_3p_24"
+            android:title="Worker" />
+
+
+        <item
             android:id="@+id/sensorFragment"
             android:icon="@drawable/baseline_3p_24"
             android:title="Sensor" />
@@ -50,6 +56,13 @@
             android:id="@+id/fileFragment"
             android:icon="@drawable/baseline_3p_24"
             android:title="FileChanger" />
+
+        <item
+            android:id="@+id/infoFragment"
+            android:icon="@drawable/baseline_3p_24"
+            android:title="Joke Moment" />
+
+
 
     </group>
 </menu>

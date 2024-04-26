@@ -57,4 +57,19 @@
         android:name="ru.mirea.kainov.mireaproject.FileFragment"
         android:label="fragment_file"
         tools:layout="@layout/fragment_file" />
+    <fragment
+        android:id="@+id/fragmentWorker"
+        android:name="ru.mirea.kainov.mireaproject.FragmentWorker"
+        android:label="fragment_worker"
+        tools:layout="@layout/fragment_worker" />
+    <fragment
+        android:id="@+id/authenticationFragment"
+        android:name="ru.mirea.kainov.mireaproject.AuthenticationFragment"
+        android:label="fragment_authentication"
+        tools:layout="@layout/fragment_authentication" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="ru.mirea.kainov.mireaproject.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
 </navigation>

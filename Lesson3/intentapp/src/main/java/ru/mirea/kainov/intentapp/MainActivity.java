@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         final SimpleDateFormat sdf = new SimpleDateFormat(format);
         String dateString = sdf.format(new Date(dateInMillis));
         Intent intent = new Intent(this, SecondActivity.class);
-        intent.putExtra("text", String.format("Квадрат значения моего номера по списку в группе составляет 121, а текущее время %s",dateString));
+        intent.putExtra("text", String.format("Квадрат значения моего номера по списку в группе составляет 144, а текущее время %s",dateString));
         startActivity(intent);
     }
 }

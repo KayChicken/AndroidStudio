@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "359020826808",
+    "project_id": "southern-guild-387409",
+    "storage_bucket": "southern-guild-387409.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359020826808:android:c2f7aca20a39cebd02244d",
+        "android_client_info": {
+          "package_name": "ru.mirea.kainov.firebaseauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbWALIizHSbtpUs724gMKi9m9AjM3YiWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359020826808:android:83dd67ba879d8ca602244d",
+        "android_client_info": {
+          "package_name": "ru.mirea.kainov.mireaproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbWALIizHSbtpUs724gMKi9m9AjM3YiWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
